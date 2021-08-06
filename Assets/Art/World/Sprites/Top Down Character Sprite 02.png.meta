@@ -1,7 +1,343 @@
 fileFormatVersion: 2
 guid: c94e96bd6d894444cad074919f9141f3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6801976596437530808
+    second: Top Down Character Sprite 02_0
+  - first:
+      213: -5496738149356630301
+    second: Top Down Character Sprite 02_1
+  - first:
+      213: -6636228258641667129
+    second: Top Down Character Sprite 02_2
+  - first:
+      213: -1887930098521280358
+    second: Top Down Character Sprite 02_3
+  - first:
+      213: 6438348608120928339
+    second: Top Down Character Sprite 02_4
+  - first:
+      213: -6346960274860629172
+    second: Top Down Character Sprite 02_5
+  - first:
+      213: 879159567764080643
+    second: Top Down Character Sprite 02_6
+  - first:
+      213: -1344779115866042960
+    second: Top Down Character Sprite 02_7
+  - first:
+      213: -7111836173033706160
+    second: Top Down Character Sprite 02_8
+  - first:
+      213: 4379739097056519465
+    second: Top Down Character Sprite 02_9
+  - first:
+      213: 8253525656429758894
+    second: Top Down Character Sprite 02_10
+  - first:
+      213: 8236699826670291546
+    second: Top Down Character Sprite 02_11
+  - first:
+      213: 2075627375257133868
+    second: Top Down Character Sprite 02_12
+  - first:
+      213: 8056576295512157214
+    second: Top Down Character Sprite 02_13
+  - first:
+      213: 8968235189508938895
+    second: Top Down Character Sprite 02_14
+  - first:
+      213: -6346971325667498585
+    second: Top Down Character Sprite 02_15
+  - first:
+      213: 6114499795791599706
+    second: Top Down Character Sprite 02_16
+  - first:
+      213: 7071608062497933077
+    second: Top Down Character Sprite 02_17
+  - first:
+      213: -8442552567936013786
+    second: Top Down Character Sprite 02_18
+  - first:
+      213: 1572587240169857179
+    second: Top Down Character Sprite 02_19
+  - first:
+      213: -4441318644482203381
+    second: Top Down Character Sprite 02_20
+  - first:
+      213: -1650472025693973435
+    second: Top Down Character Sprite 02_21
+  - first:
+      213: -70379306432916400
+    second: Top Down Character Sprite 02_22
+  - first:
+      213: -5036681934995274828
+    second: Top Down Character Sprite 02_23
+  - first:
+      213: 4338215220083402620
+    second: Top Down Character Sprite 02_24
+  - first:
+      213: 4365481782832942834
+    second: Top Down Character Sprite 02_25
+  - first:
+      213: -7962373130378188212
+    second: Top Down Character Sprite 02_26
+  - first:
+      213: 7427166216534996028
+    second: Top Down Character Sprite 02_27
+  - first:
+      213: 6214534505442747098
+    second: Top Down Character Sprite 02_28
+  - first:
+      213: -5589395334742755067
+    second: Top Down Character Sprite 02_29
+  - first:
+      213: 7642497677388061371
+    second: Top Down Character Sprite 02_30
+  - first:
+      213: -7911763254307444387
+    second: Top Down Character Sprite 02_31
+  - first:
+      213: 5355485390845094138
+    second: Top Down Character Sprite 02_32
+  - first:
+      213: -7297056611830987743
+    second: Top Down Character Sprite 02_33
+  - first:
+      213: -7473804899091428727
+    second: Top Down Character Sprite 02_34
+  - first:
+      213: -8149030746581149952
+    second: Top Down Character Sprite 02_35
+  - first:
+      213: -1784805795198261931
+    second: Top Down Character Sprite 02_36
+  - first:
+      213: -7193961269475158519
+    second: Top Down Character Sprite 02_37
+  - first:
+      213: 8285565787051403889
+    second: Top Down Character Sprite 02_38
+  - first:
+      213: 3188616230749670120
+    second: Top Down Character Sprite 02_39
+  - first:
+      213: -3301167812960411783
+    second: Top Down Character Sprite 02_40
+  - first:
+      213: -2502497233808336934
+    second: Top Down Character Sprite 02_41
+  - first:
+      213: 8321794975005872311
+    second: Top Down Character Sprite 02_42
+  - first:
+      213: 3847165054963475040
+    second: Top Down Character Sprite 02_43
+  - first:
+      213: 5265885990433529702
+    second: Top Down Character Sprite 02_44
+  - first:
+      213: -6134169596805001688
+    second: Top Down Character Sprite 02_45
+  - first:
+      213: 1250934496417133486
+    second: Top Down Character Sprite 02_46
+  - first:
+      213: -4373263193889328753
+    second: Top Down Character Sprite 02_47
+  - first:
+      213: 1066963779521179709
+    second: Top Down Character Sprite 02_48
+  - first:
+      213: -3171700193995705993
+    second: Top Down Character Sprite 02_49
+  - first:
+      213: 6470480505611222427
+    second: Top Down Character Sprite 02_50
+  - first:
+      213: 282148260793433588
+    second: Top Down Character Sprite 02_51
+  - first:
+      213: -792876846724536137
+    second: Top Down Character Sprite 02_52
+  - first:
+      213: 4645347009494273092
+    second: Top Down Character Sprite 02_53
+  - first:
+      213: -6281073799870400227
+    second: Top Down Character Sprite 02_54
+  - first:
+      213: -5303982246673517869
+    second: Top Down Character Sprite 02_55
+  - first:
+      213: 7468586256318851331
+    second: Top Down Character Sprite 02_56
+  - first:
+      213: -1092193795393022787
+    second: Top Down Character Sprite 02_57
+  - first:
+      213: 1205219951257643730
+    second: Top Down Character Sprite 02_58
+  - first:
+      213: 5614919010159018838
+    second: Top Down Character Sprite 02_59
+  - first:
+      213: 8818342610381377078
+    second: Top Down Character Sprite 02_60
+  - first:
+      213: 732932265119621584
+    second: Top Down Character Sprite 02_61
+  - first:
+      213: 7550963186239039665
+    second: Top Down Character Sprite 02_62
+  - first:
+      213: -2112096929805845177
+    second: Top Down Character Sprite 02_63
+  - first:
+      213: 8599954244957943249
+    second: Top Down Character Sprite 02_64
+  - first:
+      213: 1416048794289214818
+    second: Top Down Character Sprite 02_65
+  - first:
+      213: -7669355693532672352
+    second: Top Down Character Sprite 02_66
+  - first:
+      213: 144802981489173928
+    second: Top Down Character Sprite 02_67
+  - first:
+      213: -8369550937415526551
+    second: Top Down Character Sprite 02_68
+  - first:
+      213: -3052568903428329485
+    second: Top Down Character Sprite 02_69
+  - first:
+      213: -8203324891204356856
+    second: Top Down Character Sprite 02_70
+  - first:
+      213: 2371001990292112622
+    second: Top Down Character Sprite 02_71
+  - first:
+      213: -9150508225427633645
+    second: Top Down Character Sprite 02_72
+  - first:
+      213: -7584963096588707296
+    second: Top Down Character Sprite 02_73
+  - first:
+      213: -4024843846175797736
+    second: Top Down Character Sprite 02_74
+  - first:
+      213: 443054521479079096
+    second: Top Down Character Sprite 02_75
+  - first:
+      213: 8997440593374964620
+    second: Top Down Character Sprite 02_76
+  - first:
+      213: -4015024560836071083
+    second: Top Down Character Sprite 02_77
+  - first:
+      213: 8377485432351610067
+    second: Top Down Character Sprite 02_78
+  - first:
+      213: -6918042060912373661
+    second: Top Down Character Sprite 02_79
+  - first:
+      213: -1035743499810719034
+    second: Top Down Character Sprite 02_80
+  - first:
+      213: 3634520634557107584
+    second: Top Down Character Sprite 02_81
+  - first:
+      213: -5612344602667867513
+    second: Top Down Character Sprite 02_82
+  - first:
+      213: 7057035853572548480
+    second: Top Down Character Sprite 02_83
+  - first:
+      213: -3956501444079439034
+    second: Top Down Character Sprite 02_84
+  - first:
+      213: 8052521128393344326
+    second: Top Down Character Sprite 02_85
+  - first:
+      213: 6839451325124452190
+    second: Top Down Character Sprite 02_86
+  - first:
+      213: 8589268143761471264
+    second: Top Down Character Sprite 02_87
+  - first:
+      213: 8765707873498327547
+    second: Top Down Character Sprite 02_88
+  - first:
+      213: -7510216018874912674
+    second: Top Down Character Sprite 02_89
+  - first:
+      213: 48736739225129748
+    second: Top Down Character Sprite 02_90
+  - first:
+      213: 2196512780578741606
+    second: Top Down Character Sprite 02_91
+  - first:
+      213: 7920915152778152122
+    second: Top Down Character Sprite 02_92
+  - first:
+      213: 2128688453637895491
+    second: Top Down Character Sprite 02_93
+  - first:
+      213: 4880990934200339213
+    second: Top Down Character Sprite 02_94
+  - first:
+      213: 5828985595154449957
+    second: Top Down Character Sprite 02_95
+  - first:
+      213: 8773566738428439448
+    second: Top Down Character Sprite 02_96
+  - first:
+      213: -447942735832525929
+    second: Top Down Character Sprite 02_97
+  - first:
+      213: -1105481296577419431
+    second: Top Down Character Sprite 02_98
+  - first:
+      213: -181834939839511782
+    second: Top Down Character Sprite 02_99
+  - first:
+      213: -3083866566815307121
+    second: Top Down Character Sprite 02_100
+  - first:
+      213: 2103869137085582291
+    second: Top Down Character Sprite 02_101
+  - first:
+      213: -5513625232949054231
+    second: Top Down Character Sprite 02_102
+  - first:
+      213: -8269186387530298118
+    second: Top Down Character Sprite 02_103
+  - first:
+      213: -1425298270903347350
+    second: Top Down Character Sprite 02_104
+  - first:
+      213: 4265636159263125560
+    second: Top Down Character Sprite 02_105
+  - first:
+      213: -115503550906546488
+    second: Top Down Character Sprite 02_106
+  - first:
+      213: 5587608396642912
+    second: Top Down Character Sprite 02_107
+  - first:
+      213: 4323866413063241655
+    second: Top Down Character Sprite 02_108
+  - first:
+      213: -3208437388536891010
+    second: Top Down Character Sprite 02_109
+  - first:
+      213: -5686775290791002189
+    second: Top Down Character Sprite 02_110
+  - first:
+      213: 1467300553866297401
+    second: Top Down Character Sprite 02_111
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +368,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +377,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,7 +401,31 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -77,7 +437,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8fd211da9756e50800000000000000
+      internalID: 6801976596437530808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee8240b6c9a7b3b0800000000000000
+      internalID: -5496738149356630301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb114b1f8167e3a0800000000000000
+      internalID: -6636228258641667129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90fedcf399bcc5e0800000000000000
+      internalID: -1887930098521280358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358bd2f72fb995950800000000000000
+      internalID: 6438348608120928339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43aa65f1411be7a0800000000000000
+      internalID: -6346960274860629172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c67908f6633c00800000000000000
+      internalID: 879159567764080643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a443a3ad2ae4270800000000000000
+      internalID: 8236699826670291546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232744c91c1ecc10800000000000000
+      internalID: 2075627375257133868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca5d78475becf60800000000000000
+      internalID: 8056576295512157214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c96dc9362957c70800000000000000
+      internalID: 8968235189508938895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5affdf4370be7a0800000000000000
+      internalID: -6346971325667498585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a585b531b211bd450800000000000000
+      internalID: 6114499795791599706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5174afbd016632260800000000000000
+      internalID: 7071608062497933077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0541788c466f50ff0800000000000000
+      internalID: -70379306432916400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3caf1377c1a1ab0800000000000000
+      internalID: -5036681934995274828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a34002cf643c30800000000000000
+      internalID: 4338215220083402620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe423b5d8e459c30800000000000000
+      internalID: 4365481782832942834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a61ba03d7ff7190800000000000000
+      internalID: -7962373130378188212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b958b258921760800000000000000
+      internalID: 7427166216534996028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2a259e4367e3650800000000000000
+      internalID: 6214534505442747098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12406e94ca5abba90800000000000000
+      internalID: -7297056611830987743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac41dca06b74890800000000000000
+      internalID: -7473804899091428727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0075b4e16b3d8ee80800000000000000
+      internalID: -8149030746581149952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5552628e5981b37e0800000000000000
+      internalID: -1784805795198261931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906d305375ae92c90800000000000000
+      internalID: -7193961269475158519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a245c3f2e3cf270800000000000000
+      internalID: 8285565787051403889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Down Character Sprite 02_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea01ee519d304c20800000000000000
+      internalID: 3188616230749670120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
