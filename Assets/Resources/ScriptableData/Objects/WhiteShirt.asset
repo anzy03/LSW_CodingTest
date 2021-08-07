@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ab367fe71a7c504187b55cc7c02a768, type: 3}
-  m_Name: BlueShirt
+  m_Name: WhiteShirt
   m_EditorClassIdentifier: 
   ItemObj:
-    Name: Blue Shirt
+    Name: White Shirt
     Price: 10
-    Image: {fileID: -5741852857094109015, guid: 3ea5d4dbfe98e1444b0639ad57ad1f79, type: 3}
+    Image: {fileID: 21300000, guid: 21e3d55d19b626b4299485f43da9ea06, type: 3}
