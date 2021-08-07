@@ -1,9 +1,12 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private ItemList PlayerInventory;
+
     private float _hMovement;
     private float _vMovement;
     [SerializeField] private float _moveSpeed = 2f;
