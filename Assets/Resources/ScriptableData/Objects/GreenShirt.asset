@@ -16,3 +16,4 @@ MonoBehaviour:
     Name: Green Shirt
     Price: 20
     Image: {fileID: 8914497156774600812, guid: 3ea5d4dbfe98e1444b0639ad57ad1f79, type: 3}
+  ItemPrefab: {fileID: 6443366876655644874, guid: 77ff425c2551f784dab6762c2e889851, type: 3}

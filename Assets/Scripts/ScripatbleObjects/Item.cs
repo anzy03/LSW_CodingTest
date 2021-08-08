@@ -7,5 +7,4 @@ public struct Item
     public string Name;
     public int Price;
     public Sprite Image;
-    public GameObject Prefab;
 }

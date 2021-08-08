@@ -16,3 +16,4 @@ MonoBehaviour:
     Name: Blue Shirt
     Price: 10
     Image: {fileID: -5741852857094109015, guid: 3ea5d4dbfe98e1444b0639ad57ad1f79, type: 3}
+  ItemPrefab: {fileID: 8141917460538085948, guid: a545ffd0fbc0bc54abfed06a5e608186, type: 3}

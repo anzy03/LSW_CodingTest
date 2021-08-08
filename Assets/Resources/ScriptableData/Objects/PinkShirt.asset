@@ -16,3 +16,4 @@ MonoBehaviour:
     Name: Pink Shirt
     Price: 50
     Image: {fileID: -158316914962243977, guid: 3ea5d4dbfe98e1444b0639ad57ad1f79, type: 3}
+  ItemPrefab: {fileID: 4366825168499138138, guid: 13718d84ba6004349903d9eef1eb275d, type: 3}

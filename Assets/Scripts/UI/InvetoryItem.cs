@@ -23,7 +23,8 @@ public class InvetoryItem : MonoBehaviour
     public enum ButtonType
     {
         Buy,
-        Sell
+        Sell,
+        Bag
     };
 
     public ButtonType buttonType;

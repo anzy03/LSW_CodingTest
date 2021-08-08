@@ -13,12 +13,16 @@ public class InvetoryButtonManager : MonoBehaviour
         if (button.buttonType == InvetoryItem.ButtonType.Buy)
         {
             InventoryMenu.UpdateList(ItemObject, true);
+            Destroy(this.gameObject.transform.parent.gameObject);
         }
-        else
+        else if (button.buttonType == InvetoryItem.ButtonType.Sell)
         {
             InventoryMenu.UpdateList(ItemObject, false);
+            Destroy(this.gameObject.transform.parent.gameObject);
         }
-
-        Destroy(this.gameObject.transform.parent.gameObject);
+        else if (button.buttonType == InvetoryItem.ButtonType.Bag)
+        {
+            PlayerController.ChangeVisualTO(ItemObject);
+        }
     }
 }
