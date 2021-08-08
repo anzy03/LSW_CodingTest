@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        _playerData = Resources.Load<PlayerData>("ScriptableData/PlayerData");
+        _playerData = Resources.Load<PlayerData>("ScriptableData/Data/PlayerData");
         if (_playerData == null)
         {
-            Debug.Log("PlayerData is Null");
+            Debug.LogWarning("PlayerData is Null");
         }
 
         _rigidbody = GetComponent<Rigidbody2D>();
