@@ -7,14 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 2f;
 
-    private float _hMovement;
-    private float _vMovement;
-    private int _money;
-    private int _health;
+    private bool _canMove;
+    private Vector2 _moveVector;
+
     private Rigidbody2D _rigidbody;
     private Animator _animator;
     private PlayerData _playerData;
-
     public static Action<ItemObject> ChangeVisualTO;
 
     private void Awake()
@@ -25,12 +23,11 @@ public class PlayerController : MonoBehaviour
             Debug.LogWarning("PlayerData is Null");
         }
 
+        CanPlayerMove(false);
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>();
 
         ChangeVisual(_playerData.PlayerVisual);
-        _money = _playerData.Money;
-        _health = _playerData.Health;
     }
 
     private void OnEnable()
@@ -43,17 +40,26 @@ public class PlayerController : MonoBehaviour
         ChangeVisualTO -= ChangeVisual;
     }
 
+
     private void Update()
     {
+        if (_canMove)
+        {
+            _moveVector.x = Input.GetAxis("Horizontal");
+            _moveVector.y = Input.GetAxis("Vertical");
+        }
+        else
+        {
+            _moveVector = Vector2.zero;
+        }
+
         Movement();
         ApplyAnimations();
     }
 
     private void Movement()
     {
-        _hMovement = Input.GetAxis("Horizontal");
-        _vMovement = Input.GetAxis("Vertical");
-        _rigidbody.velocity = new Vector2(_hMovement, _vMovement) * _moveSpeed;
+        _rigidbody.MovePosition(_rigidbody.position + _moveVector.normalized * _moveSpeed * Time.fixedDeltaTime);
     }
 
     /// <summary>
@@ -61,23 +67,24 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void ApplyAnimations()
     {
-        if (_rigidbody.velocity.y > 0.1f)
+        if (_moveVector.y > 0.1f)
         {
             _animator.Play("WalkUp");
         }
-        else if (_rigidbody.velocity.y < -0.1f)
+        else if (_moveVector.y < -0.1f)
         {
             _animator.Play("WalkDown");
         }
-        else if (_rigidbody.velocity.x > 0.1f)
+        else if (_moveVector.x > 0.1f)
         {
             _animator.Play("WalkRight");
         }
-        else if (_rigidbody.velocity.x < -0.1f)
+        else if (_moveVector.x < -0.1f)
         {
             _animator.Play("WalkLeft");
         }
-        else
+        else if (_moveVector.y < 0.1f || _moveVector.y > -0.1f || _moveVector.x > -0.1f ||
+                 _moveVector.x < 0.1f)
         {
             _animator.Play("Idel");
         }
@@ -93,5 +100,10 @@ public class PlayerController : MonoBehaviour
         var visual = Instantiate(item.ItemPrefab, this.transform);
         _animator = visual.GetComponent<Animator>();
         _playerData.PlayerVisual = item;
+    }
+
+    public void CanPlayerMove(bool value)
+    {
+        _canMove = value;
     }
 }

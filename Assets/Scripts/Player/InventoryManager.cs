@@ -26,7 +26,6 @@ public class InventoryManager : MonoBehaviour
         var inItem = InvetoryObject.GetComponentInChildren<InvetoryItem>();
         inItem.ItemName = item.ItemObj.Name;
         inItem.ItemImage = item.ItemObj.Image;
-
         InvetoryObject.GetComponentInChildren<InvetoryButtonManager>().ItemObject = item;
     }
 

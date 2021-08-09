@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class InventoryMenu : MonoBehaviour
+public class ShopMenuManager : MonoBehaviour
 {
     private ItemList _itemList;
 
@@ -67,11 +67,13 @@ public class InventoryMenu : MonoBehaviour
 
     private void CreateButton(ItemObject item)
     {
+        if (item.ItemObj.Name == "White Shirt") return;
         var InvetoryObject = Instantiate(_button, this.transform);
         InvetoryObject.name = item.ItemObj.Name;
         var inItem = InvetoryObject.GetComponentInChildren<InvetoryItem>();
         inItem.ItemName = item.ItemObj.Name;
         inItem.ItemImage = item.ItemObj.Image;
+        inItem.ItemPrice = item.ItemObj.Price.ToString();
 
         InvetoryObject.GetComponentInChildren<InvetoryButtonManager>().ItemObject = item;
     }

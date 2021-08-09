@@ -12,6 +12,12 @@ public class InvetoryItem : MonoBehaviour
     }
 
     [HideInInspector]
+    public string ItemPrice
+    {
+        set => GO_ItemPrice.text = value;
+    }
+
+    [HideInInspector]
     public Sprite ItemImage
     {
         set => GO_ItemImage.overrideSprite = value;
@@ -19,6 +25,7 @@ public class InvetoryItem : MonoBehaviour
 
     [SerializeField] private TMP_Text GO_ItemName;
     [SerializeField] private Image GO_ItemImage;
+    [SerializeField] private TMP_Text GO_ItemPrice;
 
     public enum ButtonType
     {
