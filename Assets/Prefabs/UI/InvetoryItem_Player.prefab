@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemObject: {fileID: 0}
+  _buttonClickAudioClip: {fileID: 8300000, guid: ceaaf62cdad0f264388f848c3234bba4, type: 3}
 --- !u!1 &2871396036414490131
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,10 +7,12 @@ public class InvetoryButtonManager : MonoBehaviour
     [HideInInspector] private PlayerData _playerData;
     public AudioClip _buttonClickAudioClip;
     private AudioManager _audioManager;
+    private UIManager _uiManager;
 
     private void Awake()
     {
         _audioManager = FindObjectOfType<AudioManager>();
+        _uiManager = FindObjectOfType<UIManager>();
         _playerData = Resources.Load<PlayerData>("ScriptableData/Data/PlayerData");
         if (_playerData == null)
         {
@@ -39,7 +41,7 @@ public class InvetoryButtonManager : MonoBehaviour
         else if (button.buttonType == InvetoryItem.ButtonType.Bag)
         {
             PlayerController.ChangeVisualTO(ItemObject);
-            transform.parent.parent.parent.gameObject.SetActive(false);
+            _uiManager.ShowInventoryMenu(false);
         }
 
         _audioManager.PlayOneShot(_buttonClickAudioClip);

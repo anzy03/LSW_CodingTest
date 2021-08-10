@@ -8,14 +8,12 @@ public class Shop : MonoBehaviour
     public UnityEvent PlayerTriggerExit;
     private GameObject _shopPopUpCanvas;
     private bool _hasPlayerEnter;
+    private UIManager _uiManager;
 
-    private void OnEnable()
+    private void Awake()
     {
-        if (_shopPopUpCanvas == null)
-        {
-            _shopPopUpCanvas = GetComponentInChildren<Canvas>().gameObject;
-        }
-
+        _uiManager = FindObjectOfType<UIManager>();
+        _shopPopUpCanvas = GetComponentInChildren<Canvas>().gameObject;
         _shopPopUpCanvas.SetActive(false);
     }
 
@@ -23,6 +21,7 @@ public class Shop : MonoBehaviour
     {
         if (_hasPlayerEnter == true && Input.GetKeyDown(KeyCode.E))
         {
+            _uiManager.CanOpenInventory(false);
             PlayerTrigger.Invoke();
             _hasPlayerEnter = false;
             _shopPopUpCanvas.SetActive(false);
@@ -46,6 +45,7 @@ public class Shop : MonoBehaviour
             _hasPlayerEnter = false;
             PlayerTriggerExit.Invoke();
             _shopPopUpCanvas.SetActive(false);
+            _uiManager.CanOpenInventory(true);
         }
     }
 }

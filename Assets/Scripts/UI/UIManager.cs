@@ -9,18 +9,21 @@ public class UIManager : MonoBehaviour
     public UnityEvent OnEscPress;
     public UnityEvent OnPausePress;
     private PlayerData _playerData;
+    private PlayerController _playerController;
+    private bool _canOpenInventory;
 
     private void Awake()
     {
+        _playerController = FindObjectOfType<PlayerController>();
         Time.timeScale = 0f;
     }
 
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) && _canOpenInventory == true)
         {
-            _invetoryMenu.SetActive(_invetoryMenu.activeSelf == false);
+            ShowInventoryMenu(_invetoryMenu.activeSelf == false);
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -42,5 +45,21 @@ public class UIManager : MonoBehaviour
     public void ExitApplication()
     {
         Application.Quit();
+    }
+
+    public void ShowInventoryMenu(bool value)
+    {
+        _invetoryMenu.SetActive(value);
+        CanPlayerMove(!value);
+    }
+
+    public void CanPlayerMove(bool value)
+    {
+        _playerController.CanPlayerMove(value);
+    }
+
+    public void CanOpenInventory(bool value)
+    {
+        _canOpenInventory = value;
     }
 }
