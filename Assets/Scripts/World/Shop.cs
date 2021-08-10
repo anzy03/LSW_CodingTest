@@ -7,16 +7,10 @@ public class Shop : MonoBehaviour
     public UnityEvent PlayerTrigger;
     public UnityEvent PlayerTriggerExit;
     private GameObject _shopPopUpCanvas;
-    private bool _hasPlayerEnter;
-    private UIManager _uiManager;
+    private bool _canOpenShop;
 
     private void Awake()
     {
-        // Using FindObjectOfType as a quick way to get this Components.
-        // As this is a prototype and its done in Awake it should be fine but
-        // This is not recommend. 
-        _uiManager = FindObjectOfType<UIManager>();
-
         _shopPopUpCanvas = GetComponentInChildren<Canvas>().gameObject;
         _shopPopUpCanvas.SetActive(false);
     }
@@ -24,11 +18,10 @@ public class Shop : MonoBehaviour
     private void Update()
     {
         //Doing this in Update as doing it in TriggerStay it didnt register sometimes.
-        if (_hasPlayerEnter == true && Input.GetKeyDown(KeyCode.E))
+        if (_canOpenShop == true && Input.GetKeyDown(KeyCode.E))
         {
-            _uiManager.CanOpenInventory(false);
             PlayerTrigger.Invoke();
-            _hasPlayerEnter = false;
+            CanOpenShop(false);
             _shopPopUpCanvas.SetActive(false);
         }
     }
@@ -39,7 +32,7 @@ public class Shop : MonoBehaviour
         // Check if the player as entered the trigger.
         if (other.GetComponent<PlayerController>() == true)
         {
-            _hasPlayerEnter = true;
+            CanOpenShop(true);
             _shopPopUpCanvas.SetActive(true);
         }
     }
@@ -49,10 +42,14 @@ public class Shop : MonoBehaviour
         //Check if the player has exited the trigger
         if (other.GetComponent<PlayerController>() == true)
         {
-            _hasPlayerEnter = false;
+            CanOpenShop(false);
             PlayerTriggerExit.Invoke();
             _shopPopUpCanvas.SetActive(false);
-            _uiManager.CanOpenInventory(true);
         }
+    }
+
+    public void CanOpenShop(bool value)
+    {
+        _canOpenShop = value;
     }
 }
