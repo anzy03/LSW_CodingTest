@@ -6,7 +6,6 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject _invetoryMenu;
 
-    public UnityEvent OnEscPress;
     public UnityEvent OnPausePress;
     private PlayerData _playerData;
     private PlayerController _playerController;
@@ -31,12 +30,7 @@ public class UIManager : MonoBehaviour
             ShowInventoryMenu(_invetoryMenu.activeSelf == false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            OnEscPress.Invoke();
-        }
-
-        if (Input.GetKeyDown(KeyCode.P) && _canOpenPauseMenu == true)
+        if (Input.GetKeyDown(KeyCode.Escape) && _canOpenPauseMenu == true)
         {
             OnPausePress.Invoke();
         }

@@ -17,6 +17,7 @@ public class Shop : MonoBehaviour
 
     private void Update()
     {
+        _shopPopUpCanvas.SetActive(_canOpenShop);
         //Doing this in Update as doing it in TriggerStay it didnt register sometimes.
         if (_canOpenShop == true && Input.GetKeyDown(KeyCode.E))
         {
@@ -26,14 +27,12 @@ public class Shop : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the player as entered the trigger.
         if (other.GetComponent<PlayerController>() == true)
         {
             CanOpenShop(true);
-            _shopPopUpCanvas.SetActive(true);
         }
     }
 
@@ -44,10 +43,13 @@ public class Shop : MonoBehaviour
         {
             CanOpenShop(false);
             PlayerTriggerExit.Invoke();
-            _shopPopUpCanvas.SetActive(false);
         }
     }
 
+    /// <summary>
+    /// Set if can Open Shop
+    /// </summary>
+    /// <param name="value"></param>
     public void CanOpenShop(bool value)
     {
         _canOpenShop = value;
