@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     private PlayerData _playerData;
     private PlayerController _playerController;
     private bool _canOpenInventory;
+    private bool _canOpenPauseMenu;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class UIManager : MonoBehaviour
         // This is not recommend. 
         _playerController = FindObjectOfType<PlayerController>();
         Time.timeScale = 0f;
+        CanOpenPauseMenu(false);
     }
 
 
@@ -34,7 +36,7 @@ public class UIManager : MonoBehaviour
             OnEscPress.Invoke();
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P) && _canOpenPauseMenu == true)
         {
             OnPausePress.Invoke();
         }
@@ -83,5 +85,10 @@ public class UIManager : MonoBehaviour
     public void CanOpenInventory(bool value)
     {
         _canOpenInventory = value;
+    }
+
+    public void CanOpenPauseMenu(bool value)
+    {
+        _canOpenPauseMenu = value;
     }
 }
