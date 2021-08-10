@@ -21,6 +21,7 @@ public class PlayerMoneyUpdator : MonoBehaviour
 
     private void Update()
     {
+        // if the price is not same as in the Data Player Data change it.
         if (_playerMoney != _playerData.Money)
         {
             _playerMoney = _playerData.Money;

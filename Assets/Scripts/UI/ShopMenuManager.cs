@@ -28,7 +28,11 @@ public class ShopMenuManager : MonoBehaviour
         UpdateList += UpdateMenu;
     }
 
-
+    /// <summary>
+    /// Updates Shop Menu when called
+    /// </summary>
+    /// <param name="item">Item Object</param>
+    /// <param name="buy"> true if buy button</param>
     private void UpdateMenu(ItemObject item, bool buy)
     {
         if (buy == true)
@@ -40,7 +44,7 @@ public class ShopMenuManager : MonoBehaviour
             else
             {
                 _itemList.Items.Add(item);
-                CreateButton(item);
+                CreateShopItem(item);
             }
         }
         else
@@ -48,7 +52,7 @@ public class ShopMenuManager : MonoBehaviour
             if (menuType == MenuType.Buy)
             {
                 _itemList.Items.Add(item);
-                CreateButton(item);
+                CreateShopItem(item);
             }
             else
             {
@@ -57,15 +61,22 @@ public class ShopMenuManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    ///For Each item on the List Create a button
+    /// </summary>
     private void CreateMenu()
     {
         foreach (var item in _itemList.Items)
         {
-            CreateButton(item);
+            CreateShopItem(item);
         }
     }
 
-    private void CreateButton(ItemObject item)
+    /// <summary>
+    /// Instantiates a Shop Item as a child of the this object and sets all the data required by the Button Manager. 
+    /// </summary>
+    /// <param name="item"></param>
+    private void CreateShopItem(ItemObject item)
     {
         if (item.ItemObj.Name == "White Shirt") return;
         var InvetoryObject = Instantiate(_button, this.transform);
@@ -78,6 +89,9 @@ public class ShopMenuManager : MonoBehaviour
         InvetoryObject.GetComponentInChildren<InvetoryButtonManager>().ItemObject = item;
     }
 
+    /// <summary>
+    /// Go through all the child transform and delete it if its an inventory item.
+    /// </summary>
     private void DeleteMenu()
     {
         foreach (Transform child in transform)

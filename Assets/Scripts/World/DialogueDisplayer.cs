@@ -17,7 +17,8 @@ public class DialogueDisplayer : MonoBehaviour
         _dialougeData = Resources.Load<DialougeData>("ScriptableData/Data/ShopDialogue");
         if (_dialougeData == null)
         {
-            Debug.LogWarning("Dialouge Data is Null");
+            // Check to see if Dialogue Data is not loaded Properly.
+            Debug.LogWarning("Dialogue Data is Null");
         }
 
         _text = GetComponent<TMP_Text>();
@@ -30,12 +31,18 @@ public class DialogueDisplayer : MonoBehaviour
         DisplayDialogue();
     }
 
+    /// <summary>
+    /// Called to Update Dialogue Index and call DisplayDialogue().
+    /// </summary>
     public void NextDialogue()
     {
         _dialogueIndex++;
         DisplayDialogue();
     }
 
+    /// <summary>
+    /// Displays Dialogue Based on DialogueIndex when called.
+    /// </summary>
     private void DisplayDialogue()
     {
         if (_dialogueIndex < _dialougeData.Dialogues.Length - 1)

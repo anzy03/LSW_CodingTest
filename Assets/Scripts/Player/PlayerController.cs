@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>();
 
+        //Calling this here so on restart the player get the visual they have equipped.
         ChangeVisual(_playerData.PlayerVisual);
     }
 
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            // if the player cannot move make this movement null as he will slide on the map without players control.
             _moveVector = Vector2.zero;
         }
 
@@ -59,6 +61,8 @@ public class PlayerController : MonoBehaviour
 
     private void Movement()
     {
+        //Right now this works but the movement is still sloppy which can be improved if done with getting button inputs
+        //or done with Transform rather then physics i.e rigidbody.
         _rigidbody.MovePosition(_rigidbody.position + _moveVector.normalized * _moveSpeed * Time.fixedDeltaTime);
     }
 
@@ -67,6 +71,8 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void ApplyAnimations()
     {
+        // setting animation directly in code as 2d animations can feel snappy rather
+        // then fiddling around with the macanim animation settings
         if (_moveVector.y > 0.1f)
         {
             _animator.Play("WalkUp");
@@ -102,6 +108,10 @@ public class PlayerController : MonoBehaviour
         _playerData.PlayerVisual = item;
     }
 
+    /// <summary>
+    /// Sets if the player can move or not.
+    /// </summary>
+    /// <param name="value">bool value</param>
     public void CanPlayerMove(bool value)
     {
         _canMove = value;
